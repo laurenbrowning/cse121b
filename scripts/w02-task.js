@@ -11,7 +11,7 @@ let profilePicture = 'images/jerenandlauren.png'
 const nameElement = document.getElementById('name');
 const foodElement = document.getElementById('food');
 const yearElement = document.querySelector('#year');
-var imageElement = document.getElementById('picture');
+let imageElement = document.getElementById('picture');
 
 
 
