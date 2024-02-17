@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>| Final Project - To-do list |</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./../styles/main.css">
+</head>
+<body>
+  <header>
+    <h1>To-Do List</h1>
+    <form id="new-item">
+      <input
+        type = "text"
+        id="new-item-input"
+        placeholder="what do you need to do?" />
+      <label for="due-date">Due date:</label>
+      <input type="date" id="due-date" value="2024-05-01" min="2018-01-01" max="2026-12-31" />
+      <input
+        type="submit"
+        id="new-item-submit"
+        value="add to list" />
+    </form>
+  </header>
+  <main>
+    <section>
+      <h2>Items</h2>
+
+      <div id="tasks">
+        <!-- <div class="task">
+          <div class="content">
+            <input 
+              type="text"
+              class="text"
+              value="new task"
+              readonly
+            />
+          </div>
+          <div class="buttons">
+            <button class="edit">Edit</button>
+            <button class="remove">Remove</button>
+          </div>
+        </div> -->
+      </div>
+    </section>
+
+  </main>
+  <script src="project.js"></script>
+    <footer>
+        <p>&copy;2024 | Lauren Browning | CSE121b</p>
+    </footer>
+</body>
+</html>
